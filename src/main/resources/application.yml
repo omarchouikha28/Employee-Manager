@@ -1,0 +1,15 @@
+spring:
+  flyway:
+    schemas: employeemanager
+    create-schemas: true
+    url: jdbc:mysql://localhost:3322
+    user: root
+    password: iamgroot
+  datasource:
+    url: jdbc:mysql://localhost:3322/employeemanager
+    username: root
+    password: iamgroot
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
