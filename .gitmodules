@@ -1,0 +1,3 @@
+[submodule "employee-manager-frontend"]
+	path = employee-manager-frontend
+	url = https://github.com/omarchouikha28/employee-manager-frontend
